@@ -1,6 +1,7 @@
 //Operadores Matemáticos em Javascript
 
 /*
+    Atribuição                  =
     Adição                      +
     Subtração                   -        
     Multiplicação               *
