@@ -14,3 +14,14 @@ if(num > 10) {
 }
 
 console.log('Fim do programa!')
+console.log('-------------------')
+// Teste Lógico(AND, OR) na condicional
+
+let temp = 45
+let clima = 'sol'
+
+if (temp > 30 && clima == 'sol') {
+    console.log('O tempo está bom para ir a praia')
+} else {
+    console.log('O tempo não está bom para ir a praia')
+}
