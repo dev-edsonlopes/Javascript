@@ -1,0 +1,8 @@
+// Loop FOR em Javascript
+for(let i = 0; i < 100; i++) {
+    if(i % 2 === 0) {
+        console.log(i+ ': número PAR')
+    } else {
+        console.log(i+ ': número IMPAR')
+    }
+}
