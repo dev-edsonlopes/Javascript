@@ -1,3 +1,5 @@
+
+
 const cursos = ["HTML", "CSS", "JavaScript"]
 const caixaCursos = document.querySelector("#caixaCursos")
 const btnCursoSelecionado = document.querySelector('#btnCursoSelecionado')

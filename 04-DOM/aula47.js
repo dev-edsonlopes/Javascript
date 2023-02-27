@@ -1,3 +1,5 @@
+//Aprendendo o método FIND em Javascript
+
 const arr = document.querySelector('#array')
 const txt_pesquisar = document.querySelector('#txt_pesquisar')
 const btnPesquisar = document.querySelector('#btnPesquisar')
