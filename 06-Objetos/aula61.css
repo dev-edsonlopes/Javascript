@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoForm {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.campoForm input {
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.campoForm button {
+    background-color: #888;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.res{
+    border: 3px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.pessoa {
+    width: 25%;
+    border: 2px solid #888;
+    padding: 5px;
+}
