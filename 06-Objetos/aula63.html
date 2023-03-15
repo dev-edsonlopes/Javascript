@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula63.css">
+    <title>Aula 63 de Javascript</title>
+</head>
+<body>
+    <div id="criarCarro" class="criarCarro">
+        <div class="campoForm">
+            <label >Nome:</label>
+            <input type="text" name="txt_nome" id="txt_nome">
+        </div>
+        <div class="campoForm">
+            <label>Portas:</label>
+            <input type="number" name="txt_portas" id="txt_portas" value="0">
+        </div>
+        <div class="campoForm">
+            <label>Blindagem</label>
+            <input type="number" name="txt_blindagem" id="txt_blindagem" value="0" disabled>
+        </div>
+        
+        <div class="campoForm">
+            <label>Munição</label>
+            <input type="number" name="txt_municao" id="txt_municao" value="0" disabled>
+        </div>
+        
+        <div class="campoForm">
+            <label>Tipo</label>
+            <div class="radio">
+                <input type="radio" name="txt_tipo" id="txt_tipoMilitar"value="m" > Militar
+            </div>
+            
+            <div class="radio">
+                <input type="radio" name="txt_tipo" id="txt_tipoNormal"value="n"  checked> Normal
+            </div>
+            <div class="campoForm">
+                <button id="btn_addCarro">Adicionar</button>
+            </div>
+        </div>
+        <div class="carros">
+
+        </div>
+    </div>
+    <script src="aula63.js"></script>
+</body>
+</html>
